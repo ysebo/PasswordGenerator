@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: rgb(70, 124, 130);
+    transition: background-color 2s ease; 
     margin: 0;
     display: flex;
     justify-content: center;
@@ -64,7 +65,7 @@ label {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: rgb(70, 124, 130);;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -73,7 +74,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #3d3a3c;
 }
 
 #output, #strength {
