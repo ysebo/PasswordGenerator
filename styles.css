@@ -8,7 +8,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
 .passwordContainer {
     display: flex;
     justify-content: space-between;
@@ -16,7 +15,7 @@ body {
     width: 80%;
 }
 
-.historyContainer    {
+.historyContainer {
     text-align: center;
     background-color: #ffffff;
     padding: 20px;

@@ -1,13 +1,13 @@
 let passwordHistory = [];
+
+document.getElementById('copy').addEventListener('click', copyToClipboard);
+document.getElementById('generate').addEventListener('click', validateStrength);
+
 function copyToClipboard() {
     const password = document.getElementById('output').textContent;
     navigator.clipboard.writeText(password).then()
         alert("Password copied to clipboard!");
 }
-
-document.getElementById('copy').addEventListener('click', copyToClipboard);
-document.getElementById('generate').addEventListener('click', validateStrength);
-
 async function savePassword(password) {
     const salt = generateSalt();
     const hash = await hashPassword(password, salt); 
