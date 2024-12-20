@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(70, 124, 130);
+    background-color: rgb(16, 90, 98);
     transition: background-color 2s ease; 
     margin: 0;
     display: flex;
@@ -64,7 +64,7 @@ label {
 }
 
 button {
-    background-color: rgb(70, 124, 130);;
+    background-color: rgb(16, 90, 98);
     color: #fff;
     border: none;
     padding: 10px 20px;
